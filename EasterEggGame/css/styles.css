@@ -1,0 +1,456 @@
+ * {
+     box-sizing: border-box;
+     font-family: "verdana";
+ }
+
+ body {
+     background-color: #9393b1;
+ }
+
+ .background {
+     background-color: #da5353;
+     width: 1200px;
+     height: 700px;
+     margin-left: auto;
+     margin-right: auto;
+     border: 2px solid black;
+ }
+
+ .backgroundgameOne, .backgroundgameTwo, .backgroundgameThree, .backgroundgameFour, .backgroundgameFive {
+     width: 1000px;
+     height: 700px;
+     margin-left: 450px;
+     border: 2px solid black;
+     position: absolute;
+ }
+
+ .backgroundgameOne {
+     background-image: url(../images/farmyardmod.jpg);
+ }
+
+ .backgroundgameTwo {
+     background-image: url(../images/schoolyardmod.jpg);
+ }
+
+ .backgroundgameThree {
+     background-image: url(../images/safariparkmod.jpg);
+ }
+ .backgroundgameFour {
+     background-image: url(../images/zoomod.jpg);
+ }
+ .backgroundgameFive {
+     background-image: url(../images/dinomod.jpg);
+ }
+
+
+
+ h2 {
+     text-align: center;
+ }
+
+h3 {
+    text-align: right;
+}
+
+
+
+
+ a {
+     background-color: #76eb84;
+     border: 1px solid black;
+     color: black;
+     padding: 15px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 2px 2px;
+ }
+
+ .startbutton {
+     margin-left: 50%;
+ }
+
+ #top-section {
+     display: flex;
+     justify-content: space-between;
+     margin: 10px;
+ }
+
+ ul {
+     background-color: white;
+     border: 1px solid black;
+ }
+
+
+ #score li {
+     display: inline-block;
+ }
+
+ #time li {
+     display: inline-block;
+ }
+
+ #score li:nth-child(1) {
+     color: black;
+     font-weight: bold;
+     font-size: 26px;
+ }
+
+ #score li:nth-child(2) {
+     padding: 20px;
+     font-weight: bold;
+     font-size: 22px;
+     color: black;
+ }
+
+ #time li:nth-child(1) {
+     color: black;
+     font-weight: bold;
+     font-size: 26px;
+
+ }
+
+ #time li:nth-child(2) {
+     padding: 20px;
+     font-weight: bold;
+     font-size: 22px;
+     color: black;
+ }
+
+ .mainButton {
+     display: flex;
+     justify-content: space-around;
+     margin-left: 20%;
+     margin-right: 20%;
+     margin-top: 15%;
+ }
+
+ .colourButton {
+     width: 100px;
+     text-align: right;
+
+ }
+
+ .CButton {
+     background-color: white;
+     border: 1px solid black;
+     color: black;
+     padding: 15px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 2px 2px;
+     border-radius: 50%;
+     cursor: pointer;
+ }
+
+ .redbutton {
+     background-color: #da5353;
+ }
+
+ .bluebutton {
+     background-color: #484e97;
+ }
+
+ .greenbutton {
+     background-color: #82d986;
+ }
+
+ .purplebutton {
+     background-color: #9c83d5;
+ }
+
+ .yellowbutton {
+     background-color: #efd64e;
+ }
+
+ .backgroundbuttons {
+     display: flex;
+     justify-content: flex-end;
+
+ }
+
+ .instructions {
+     background-color: whitesmoke;
+     max-width: 500px;
+     margin-right: auto;
+     margin-left: auto;
+     padding: 20px;
+     border: 1px solid black;
+
+ }
+
+
+ .draggableEgg {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+    
+
+ }
+
+ .draggableEasterEgg {
+     /*  background-color: #5656db;*/
+     position: absolute;
+     top: 290px;
+     left: 80px;
+ }
+
+ .draggableEasterEggOne {
+     /* background-color: #eff539; */
+     position: absolute;
+     top: 540px;
+     left: 260px;
+ }
+
+ .draggableEasterEggTwo {
+     /* background-color: #b22424; */
+     position: absolute;
+     top: 285px;
+     left: 645px;
+ }
+
+ .draggableEasterEggThree {
+     /* background-color: #2cc11f; */
+     position: absolute;
+     top: 490px;
+     left: 845px;
+ }
+
+ .draggableEasterEggFour {
+     /* background-color: #c620ac; */
+     position: absolute;
+     top: 525px;
+     left: 530px;
+ }
+
+ .draggableEasterEggFive {
+     /* background-color: #5656db; */
+     position: absolute;
+     top: 105px;
+     left: 300px;
+ }
+
+ .draggableEasterEggSix {
+     /* background-color: #eff539; */
+     position: absolute;
+     top: 390px;
+     left: 185px;
+ }
+
+ .draggableEasterEggSeven {
+     /* background-color: #b22424; */
+     position: absolute;
+     top: 520px;
+     left: 710px;
+ }
+
+ .draggableEasterEggEight {
+    /* background-color: #2cc11f; */
+     position: absolute;
+     top: 530px;
+     left: 320px;
+ }
+
+ .draggableEasterEggNine {
+      /* background-color: #c620ac; */
+     position: absolute;
+     top: 600px;
+     left: 900px;
+ }
+
+ .draggableEasterEggTen {
+/*     background-color: #5656db; */
+     position: absolute;
+     top: 580px;
+     left: 730px;
+ }
+
+ .draggableEasterEggEleven {
+     /* background-color: #eff539; */
+     position: absolute;
+     top: 315px;
+     left: 300px;
+ }
+
+ .draggableEasterEggTwelve {
+     /* background-color: #b22424; */
+     position: absolute;
+     top: 350px;
+     left: 65px;
+ }
+
+ .draggableEasterEggThirteen {
+    /* background-color: #2cc11f; */
+     position: absolute;
+     top: 220px;
+     left: 770px;
+ }
+
+ .draggableEasterEggFourteen {
+     /* background-color: #c620ac; */
+     position: absolute;
+     top: 390px;
+     left: 490px;
+ }
+
+ .draggableEasterEggFifteen {
+     /* background-color: #5656db; */
+     position: absolute;
+     top: 560px;
+     left: 600px;
+ }
+
+ .draggableEasterEggSixteen {
+     /* background-color: #eff539; */
+     position: absolute;
+     top: 400px;
+     left: 645px;
+ }
+
+ .draggableEasterEggSeventeen {
+     /* background-color: #b22424; */
+     position: absolute;
+     top: 215px;
+     left: 75px;
+ }
+
+ .draggableEasterEggEighteen {
+    /* background-color: #2cc11f; */
+     position: absolute;
+     top: 275px;
+     left: 390px;
+ }
+
+ .draggableEasterEggNineteen {
+    /* background-color: #c620ac; */
+     position: absolute;
+     top: 275px;
+     left: 850px;
+ }
+
+ .draggableEasterEggTwenty {
+     /* background-color: #5656db; */
+     position: absolute;
+     top: 350px;
+     left: 470px;
+ }
+
+ .draggableEasterEggTwentyone {
+     /* background-color: #eff539; */
+     position: absolute;
+     top: 80px;
+     left: 470px;
+ }
+
+ .draggableEasterEggTwentytwo {
+     /* background-color: #b22424; */
+     position: absolute;
+     top: 330px;
+     left: 785px;
+ }
+
+ .draggableEasterEggTwentythree {
+    /* background-color: #2cc11f; */
+     position: absolute;
+     top: 275px;
+     left: 460px;
+ }
+
+ .draggableEasterEggTwentyfour {
+     /* background-color: #c620ac; */
+     position: absolute;
+     top: 325px;
+     left: 205px;
+ }
+
+ #draggableEasterEggShadow,
+ #draggableEasterEggOneShadow,
+ #draggableEasterEggTwoShadow,
+ #draggableEasterEggThreeShadow,
+ #draggableEasterEggFourShadow {
+     width: 75px;
+     height: 75px;
+     background-size: contain;
+     background-repeat: no-repeat;
+ }
+
+
+ #draggableEasterEggShadow {
+     /*background-color: #5656db;*/
+     background-image: url(../images/Blue%20Egg.png);
+ }
+
+ #draggableEasterEggOneShadow {
+     /* background-color: #eff539; */
+     background-image: url(../images/Yellow%20Egg.png);
+ }
+
+ #draggableEasterEggTwoShadow {
+     /* background-color: #db56cc; */
+     background-image: url(../images/Red%20Egg.png);
+ }
+
+ #draggableEasterEggThreeShadow {
+     /* background-color: #2f8a96; */
+     background-image: url(../images/Green%20Egg.png);
+ }
+
+ #draggableEasterEggFourShadow {
+     /* background-color: #3b5c35; */
+     background-image: url(../images/Purple%20Egg.png);
+ }
+
+
+ .dropBasket {
+     width: 175px;
+     height: 150px;
+     /* border: 1px solid #333;
+     background-color: yellow; */
+     position: absolute;
+     top: 520px;
+     left: 25px;
+
+ }
+
+ .popup {
+     width: 400px;
+     height: 400px;
+     z-index: 1;
+     background-color: brown;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+     display: none;
+     border: 1px solid black;
+     box-shadow: 2px 2px black;
+     padding-left: 75px;
+     padding-top: 100px;
+     color: white;
+
+ }
+
+ #gameover {
+     display: inline-block;
+ }
+
+
+ .startgame {
+     width: 200px;
+     height: 200px;
+     margin-left: 400px;
+     z-index: 1;
+     font-size: 26px;
+     display: block;
+     background-color: white;
+     border: 1px solid black;
+     color: black;
+     padding: 15px;
+     text-decoration: none;
+     font-size: 20px;
+     cursor: pointer;
+     box-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+
+ }

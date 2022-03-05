@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Easter Egg Hunt</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"> </head>
+
+<body>
+    <header>
+        <h2>Easter Egg Hunt Level Three</h2>
+
+
+    </header>
+    <br>
+
+
+    <main id="background" class="backgroundgameThree">
+        <div id="top-section">
+            <ul id="score">
+                <li>Score:</li>
+                <li id="points">X/5</li>
+            </ul>
+            <ul id="time">
+                <li>Time:</li>
+                <li id="countdown">-</li>
+            </ul>
+        </div>
+
+
+        <div id="draggableEasterEgg" class="draggableEasterEggTen draggableEgg"></div>
+        <div id="draggableEasterEggOne" class="draggableEasterEggEleven draggableEgg"></div>
+        <div id="draggableEasterEggTwo" class="draggableEasterEggTwelve draggableEgg"></div>
+        <div id="draggableEasterEggThree" class="draggableEasterEggThirteen draggableEgg"></div>
+        <div id="draggableEasterEggFour" class="draggableEasterEggFourteen draggableEgg"></div>
+        <br>
+
+        <button type="button" id="btn" class="startgame">Start Game</button>
+        <div id="dropBasket" class="dropBasket"></div>
+        <div id="dropBasketOne" class="dropBasket"></div>
+        <div id="dropBasketTwo" class="dropBasket"></div>
+        <div id="dropBasketThree" class="dropBasket"></div>
+        <div id="dropBasketFour" class="dropBasket"></div>
+
+
+
+        <div id="popup" class="popup">
+            <p id="change">Well Done you found all the eggs</p>
+            <a href="index.html">Home</a>
+            <a id="gameover" href="levelfour.html">Next Level</a></div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <!--JQUERY-->
+    <script src="jquery/jquery-3.2.1.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/eastergame.js"></script>
+</body>
+
+</html>
